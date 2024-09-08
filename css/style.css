@@ -10,10 +10,12 @@ body
 .wrap {background-color: #bc9b00; border-style: solid; margin-top: 100px; }
 .img1{text-align: -webkit-center;}
 .img2{text-align: -webkit-center;}
-.img1 img{width: 50%; }
-.img2 img{width: 50%;}
+.img1 img{width: 25%; }
+.img2 img{width: 25%;}
 .headContainer {margin-top: 20px;}
 .headRow {text-align: -webkit-center;}
-.container1 {margin-top: 30px;}
 .row1 {text-align: -webkit-center;}
-#birthYear {text-align: -webkit-center;}
+input {margin-bottom: 5px;}
+#birthYear {align-self: center; width: fit-content; text-align: -webkit-center;}
+#checkAge {width: 100px; border: groove; align-self: center}
+#refresh {width: 100px; border: groove; align-self: center}
