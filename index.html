@@ -8,14 +8,39 @@
     <title>Age Checker</title>
 </head>
 <body>
+    <div class="container wrap">
+    <div class="container headContainer">
+        <div class="row headRow">
+            <div class="col-12 headCol">
+                <h1>AGE Verification</h1>
+                <p>
+                    This website requires you to be 18 or older.
+                </p>
+            </div>
+        </div>
+    </div>
     <div class="container container1">
         <div class="row row1">
             <div class="col-12 col1">
-                <input type="text" name="age" placeholder="Enter Age" id="age">
+                <input type="text" name="birthYear" placeholder="Enter Year born" id="birthYear">
                 <input id=checkAge type="button" value="Check Age">
                 <h3></h3>
             </div>
         </div>
+    </div>
+
+    <div class="container container2">
+        <div class="row">
+            <div class="col container2Col1">
+                <div class="img1 d-none">
+                    <img src="./images/under18.png" alt="">
+                </div>
+                <div class="img2 d-none">
+                    <img src="./images/over18.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 <script type=" text/javascript" src="app.js"></script>

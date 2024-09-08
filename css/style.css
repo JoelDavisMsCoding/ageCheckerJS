@@ -1,2 +1,19 @@
+body
+{
+    background: url("./blackAndGold.jpg")50%;
+    position: relative;
+    background-repeat: round;
+    background-size: contain;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.wrap {background-color: #bc9b00; border-style: solid; margin-top: 100px; }
+.img1{text-align: -webkit-center;}
+.img2{text-align: -webkit-center;}
+.img1 img{width: 50%; }
+.img2 img{width: 50%;}
+.headContainer {margin-top: 20px;}
+.headRow {text-align: -webkit-center;}
 .container1 {margin-top: 30px;}
 .row1 {text-align: -webkit-center;}
+#birthYear {text-align: -webkit-center;}
