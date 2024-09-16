@@ -15,12 +15,19 @@ let img2 = document.querySelector(".img2");
 console.log(img1);
 console.log(img2);
 
+let submitButton = document.querySelector("#submit")
+
 let currentYear = new Date().getFullYear() 
 console.log(currentYear);
 let birthYear = "";
 
-let nAn = "abcdefghijklmnopqrstuvwxyz`~!@#$%^&*()-_=+[{]}:;$|'<,>.?/'\`";
-console.log(nAn);
+submitButton.addEventListener("input", () =>
+{
+    let inputYear = new Date(grabDate.value)
+    parsedYear = inputYear.getFullYear();
+    console.log(parsedYear)
+})
+
 ageInput.addEventListener("input", () => 
 {
     img1.classList.add("d-none");
